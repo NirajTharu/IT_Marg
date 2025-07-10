@@ -1,0 +1,50 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail cache files
+._*
+
+# VS Code settings
+.vscode/
+
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Build output (e.g., if using Webpack, Parcel, etc.)
+dist/
+build/
+out/
+
+# Environment files (if using any)
+.env
+.env.local
+.env.*.local
+
+# Coverage directory (for test coverage)
+coverage/
+
+# Cache
+.cache/
+.next/
+.svelte-kit/
+.sass-cache/
+parcel-cache/
+
+# Others
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Optional: exclude any personal folders like uploads, etc.
+uploads/
