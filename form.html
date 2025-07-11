@@ -8,12 +8,41 @@
 </head>
 
 <body>
-    <label for="username">username</label>
-    <input type="text" name="username" id="">
-    <br>
+    <form action="">
+        <h1>Login Form</h1>
+        <label for="username">username</label>
+        <input type="text" name="username" placeholder="Enter username">
+        <br>
 
-    <label for="password">password</label>
-    <input type="password">
-    <br>
-    <button>submit</button>
+        <label for="password">password</label>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <label for="gmail">gmail</label>
+        <input type="gmail" placeholder="enter your gmail">
+
+        <!-- This one is for the radio button -->
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <!-- This one for the checkbox -->
+        <p>Select Your Hobbies</p>
+        <input type="checkbox" name="game">Football
+        <input type="checkbox" name="game">basketball
+        <input type="checkbox" name="game">cricket
+
+
+        <!-- Used multiple for multiselect  -->
+        <select name="" id="" multiple>
+            <option value="" selected>select faculty</option>
+            <option value="">CSIT</option>
+            <option value="">BBA</option>
+            <option value="">BCA</option>
+        </select>
+
+        <br>
+        <!-- For the comment area -->
+        <label for="">Comment</label><br>
+        <textarea name="" id="" rows="5" cols="5"></textarea>
+        <button>submit</button>
+        <button>reset</button>
+    </form>
 </body>
