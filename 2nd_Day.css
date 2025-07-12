@@ -15,11 +15,11 @@ id selector and class selector*/
 
 
 /* "#  is for the id selector" */
-#firstpara {
+#first_para {
     color: brown;
 }
 
-#secondpara {
+#second_para {
     color: blue;
 }
 
