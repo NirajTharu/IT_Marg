@@ -1,0 +1,32 @@
+/* About the css selector 
+id selector and class selector*/
+/* Difference between the class and the id is that id is always unique and the may same */
+
+
+/* Grouping selector for selection of the different tag at once */
+
+/*  Combinator selector:
+ Descendent combinator: use the " "(space)symbol and the  applied css is in all the child, grand child
+ child combinator: symbol used is > only used for the own child. */
+/* "* is for the universal selector" */
+* {
+    font-size: 30px;
+}
+
+
+/* "#  is for the id selector" */
+#firstpara {
+    color: brown;
+}
+
+#secondpara {
+    color: blue;
+}
+
+/* Span tag is used to add special features to the certain part of the any one part of the program where you need */
+
+#span1 {
+    background-color: aqua;
+    font-size: 20px;
+    text-decoration: underline;
+}

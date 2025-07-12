@@ -1,0 +1,55 @@
+/* Type selector */
+
+P {
+    color: blue;
+}
+
+/* Class selector*/
+.intro {
+    font-style: italic;
+    color: darkgreen;
+}
+
+/* Id selector */
+#language-list {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+/* Descendent selector */
+#language-list li {
+    font-size: 18px;
+}
+
+/* Child selector */
+.card>h2 {
+    color: crimson;
+}
+
+/* Adjacent sibling selector */
+h2+p {
+    margin: 20px
+}
+
+/* General sibling selector */
+h2~p {
+    background-color: #e0f7fa;
+}
+
+/* Attribute selector*/
+a[target="_blank"] {
+    text-decoration: underline;
+    color: purple;
+}
+
+/* Grouping Selector */
+h1,
+h2,
+.highlight {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Pseudo selector */
+.external-link:hover {
+    color: red;
+}
