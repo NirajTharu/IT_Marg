@@ -1,0 +1,25 @@
+* {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#one {
+    height: 500px;
+    width: 500px;
+    background-color: greenyellow;
+    border: 1px solid red;
+    position: absolute;
+    top: 200px;
+    bottom: 300px;
+}
+
+#two {
+    height: 200px;
+    width: 200px;
+    background-color: khaki;
+    border: 1px solid green;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}

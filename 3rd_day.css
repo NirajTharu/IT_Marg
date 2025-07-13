@@ -1,0 +1,10 @@
+#first_para {
+    position: fixed;
+    top: 110px;
+    background-color: aqua;
+}
+
+#second_para {
+    position: fixed;
+    margin-top: 10px;
+}
